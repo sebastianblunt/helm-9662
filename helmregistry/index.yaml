@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  helm-9662:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-05-29T03:14:17.394445697-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 26a3c2f025fdc2736896c0bdc588efed95701b9e587b83c1f0e235dd3db5e5ab
+    name: helm-9662
+    type: application
+    urls:
+    - https://sebastianblunt.github.io/helm-9662/helm-9662-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-29T03:14:17.393318067-07:00"
