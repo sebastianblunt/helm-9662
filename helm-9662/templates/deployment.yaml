@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helm-9662
+  labels:
+    app: helm-9662
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helm-9662
+  template:
+    metadata:
+      labels:
+        app: helm-9662
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.14.2
+          ports:
+            - containerPort: 80
